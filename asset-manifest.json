@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Relojeria_Vera/static/css/main.23c41d5f.chunk.css",
+    "main.js": "/Relojeria_Vera/static/js/main.acfcab4d.chunk.js",
+    "main.js.map": "/Relojeria_Vera/static/js/main.acfcab4d.chunk.js.map",
+    "runtime-main.js": "/Relojeria_Vera/static/js/runtime-main.de929c99.js",
+    "runtime-main.js.map": "/Relojeria_Vera/static/js/runtime-main.de929c99.js.map",
+    "static/js/2.6b72ff03.chunk.js": "/Relojeria_Vera/static/js/2.6b72ff03.chunk.js",
+    "static/js/2.6b72ff03.chunk.js.map": "/Relojeria_Vera/static/js/2.6b72ff03.chunk.js.map",
+    "static/js/3.3a084c91.chunk.js": "/Relojeria_Vera/static/js/3.3a084c91.chunk.js",
+    "static/js/3.3a084c91.chunk.js.map": "/Relojeria_Vera/static/js/3.3a084c91.chunk.js.map",
+    "index.html": "/Relojeria_Vera/index.html",
+    "static/css/main.23c41d5f.chunk.css.map": "/Relojeria_Vera/static/css/main.23c41d5f.chunk.css.map",
+    "static/js/2.6b72ff03.chunk.js.LICENSE.txt": "/Relojeria_Vera/static/js/2.6b72ff03.chunk.js.LICENSE.txt",
+    "static/media/Banner.dc6ce5ff.png": "/Relojeria_Vera/static/media/Banner.dc6ce5ff.png",
+    "static/media/IMG-20210808-WA0030.ca9fcfa9.jpg": "/Relojeria_Vera/static/media/IMG-20210808-WA0030.ca9fcfa9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de929c99.js",
+    "static/js/2.6b72ff03.chunk.js",
+    "static/css/main.23c41d5f.chunk.css",
+    "static/js/main.acfcab4d.chunk.js"
+  ]
+}
