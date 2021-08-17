@@ -1,17 +1,18 @@
 import React from "react";
 import ButtonPrincipal from "../Component/ButtonPrincipal";
-import img1 from "../IMG/IMG-20210808-WA0030.jpg";
+import img1 from "../IMG/1.jpg";
 
-function Card() {
+function Card(props) {
+  console.log(props);
   return (
     <div className="cont-card ">
       <div className="contenido-card  ">
         <div className="fav-card"></div>
         <div className="img-card">
-          <img src={img1} alt="" />
+          <img src={props.url} alt="" />
         </div>
         <div className="preciocard">
-          <p>$ 15 </p>
+          <p>$ {props.precio} </p>
         </div>
         <div className="botoncard">
           <ButtonPrincipal />
