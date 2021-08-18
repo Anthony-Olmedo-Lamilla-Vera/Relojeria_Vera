@@ -1,7 +1,9 @@
 import React from "react";
+import { CustomHooks } from "../Servicio/CustomHooks";
 import Itemfiltro from "./Itemfiltro";
 
 function Filtros() {
+  const { Info } = CustomHooks();
   return (
     <div className="filtro">
       <div className="cont-filtro">
@@ -10,12 +12,8 @@ function Filtros() {
         </div>
         <div className="fix">
           <div className="item-filtro  center">
-            <Itemfiltro item="Relojes Hombre " />
-            <Itemfiltro item="Relojes Hombre " />
-            <Itemfiltro item="Relojes Hombre " />
-            <Itemfiltro item="Relojes Hombre " />
-            <Itemfiltro item="Relojes Hombre " />
-            <Itemfiltro item="Relojes Hombre " />
+            <Itemfiltro item="Relojes Hombre" />;
+            <Itemfiltro item="Relojes Mujer" />;
           </div>
         </div>
       </div>

@@ -8,13 +8,10 @@ const firebaseConfig = {
   messagingSenderId: "1036965777062",
   appId: "1:1036965777062:web:830ad8099f2a3181b92e67",
 };
-firebase.initializeApp(firebaseConfig);
 
 // Get a reference to the storage service, which is used to create references in your storage bucket
 !firebase.apps.length && firebase.initializeApp(firebaseConfig);
 export const db = firebase.firestore();
-
-//const firestore = db.collection("Productos").add({});
 
 const relojes = [
   {

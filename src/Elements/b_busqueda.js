@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
+import { CustomHooks } from "../Servicio/CustomHooks";
 
-function b_busqueda() {
+function B_busqueda() {
+  const [ValInput, setValInput] = useState("");
+
+  const Input = (evt) => {
+    const { Info } = CustomHooks();
+    setValInput(evt.target.value);
+  };
   return (
     <div className="barrabusqueda">
       <div className="cont-barra center">
         <form>
-          <input type="text" />
+          <input type="text" value={ValInput} onChange={Input} />
           <button>
             <i class="bx bx-search-alt"></i>
           </button>
@@ -15,4 +22,4 @@ function b_busqueda() {
   );
 }
 
-export default b_busqueda;
+export default B_busqueda;
