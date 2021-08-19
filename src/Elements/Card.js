@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useContext } from "react";
 import ButtonPrincipal from "../Component/ButtonPrincipal";
-import img1 from "../IMG/1.jpg";
+import { contexto } from "../transiciones.js";
 
 function Card(props) {
+  const { Modal, setModal, Url, setUrl } = useContext(contexto);
+  const openModal = () => {
+    setModal(true);
+    setUrl(props.url);
+  };
   return (
     <div className="cont-card ">
       <div className="contenido-card  ">
         <div className="fav-card">
-          <i class="bx bx-heart"></i>
+          <i className="bx bx-heart"></i>
+          <button onClick={openModal}>
+            <i className="bx bx-show-alt"></i>
+          </button>
         </div>
         <div className="img-card">
           <img src={props.url} alt="" />

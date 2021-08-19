@@ -22,6 +22,7 @@ body {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  scroll-behavior: smooth;
 }
 .title-logo {
   font-size: 20px;
@@ -38,7 +39,6 @@ span .t {
   color: var(--amarillo);
 }
 .cont-header {
-  margin-top: 0.4rem;
   display: flex;
   align-items: center;
 }
@@ -101,8 +101,82 @@ nav {
 article img {
   width: 100%;
 }
+.app {
+  position: relative;
+}
 article {
-  margin: 10px 0;
+  margin: 5px 0;
+}
+header {
+  background: #ada996; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eaeaea,
+    #dbdbdb,
+    #f2f2f2,
+    #ada996
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #eaeaea,
+    #dbdbdb,
+    #f2f2f2,
+    #ada996
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/*MOdal IMG */
+.img-modal {
+  width: 300px;
+}
+.modal-img {
+  backdrop-filter: blur(2px);
+  z-index: 99999;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-modal img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 0.9375rem;
+}
+.cont-modal {
+  position: relative;
+}
+.head-modal {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 5px 10px;
+}
+.head-modal button i {
+  font-size: 1.875rem;
+  color: #fff;
+  text-align: center;
+}
+.head-modal button,
+.fav-card button {
+  cursor: pointer;
+  text-align: center;
+  border-style: none;
+  padding: 0.0625rem 0.3125rem;
+  background: transparent;
+}
+
+.cont-flecha {
+  z-index: 999;
+  position: fixed;
+  right: 0.625rem;
+  color: #000;
+  bottom: 15px;
+}
+.cont-flecha i {
+  font-size: 50px;
 }
 @media screen and (max-width: 500px) {
   html {
@@ -242,6 +316,8 @@ article {
   }
   /*Favorite */
   .fav-card {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     top: 0;
     right: 0;

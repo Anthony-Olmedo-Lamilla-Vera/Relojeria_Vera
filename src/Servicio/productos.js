@@ -12,7 +12,7 @@ const firebaseConfig = {
 // Get a reference to the storage service, which is used to create references in your storage bucket
 !firebase.apps.length && firebase.initializeApp(firebaseConfig);
 export const db = firebase.firestore();
-
+/*
 const relojes = [
   {
     id: 1,
@@ -222,10 +222,64 @@ const relojes = [
   },
 ];
 
-/*export const firestoreimg = relojes.map((x) =>
-  db.collection("Productos").add({
+const relojes = [
+  {
+    id: 42,
+    precio: 22,
+  },
+  {
+    id: 43,
+    precio: 22,
+  },
+  {
+    id: 44,
+    precio: 22,
+  },
+  {
+    id: 45,
+    precio: 22,
+  },
+  {
+    id: 46,
+    precio: 22,
+  },
+  {
+    id: 47,
+    precio: 22,
+  },
+  {
+    id: 48,
+    precio: 22,
+  },
+  {
+    id: 49,
+    precio: 22,
+  },
+  {
+    id: 50,
+    precio: 22,
+  },
+  {
+    id: 51,
+    precio: 22,
+  },
+  {
+    id: 52,
+    precio: 22,
+  },
+  {
+    id: 53,
+    precio: 22,
+  },
+  {
+    id: 54,
+    precio: 22,
+  },
+];
+export const firestoreimg = relojes.map((x) =>
+  db.collection("Relojes Mujeres").add({
     ...x,
-    url: `https://firebasestorage.googleapis.com/v0/b/shoprelojes-a5ef4.appspot.com/o/${x.id}.jpg?alt=media&token=68719bd4-3adc-4e7d-8568-d9692dfab1bd`,
+    url: `https://firebasestorage.googleapis.com/v0/b/shoprelojes-a5ef4.appspot.com/o/${x.id}.jpeg?alt=media&token=68719bd4-3adc-4e7d-8568-d9692dfab1bd`,
   })
-);*/
-//console.log(img);
+);
+*/

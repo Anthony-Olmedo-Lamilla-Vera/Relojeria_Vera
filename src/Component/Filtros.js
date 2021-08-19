@@ -12,8 +12,8 @@ function Filtros() {
         </div>
         <div className="fix">
           <div className="item-filtro  center">
-            <Itemfiltro item="Relojes Hombre" />;
-            <Itemfiltro item="Relojes Mujer" />;
+            <Itemfiltro item="Relojes Hombre" />
+            <Itemfiltro item="Relojes Mujer" />
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import banner from "../IMG/Banner.png";
 
 const Article = () => {
   return (
-    <article>
+    <article id="inicio">
       <img src={banner} alt="" />
     </article>
   );
