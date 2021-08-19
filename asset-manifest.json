@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/Relojeria_Vera/static/css/main.68693966.chunk.css",
-    "main.js": "/Relojeria_Vera/static/js/main.24839b6d.chunk.js",
-    "main.js.map": "/Relojeria_Vera/static/js/main.24839b6d.chunk.js.map",
+    "main.css": "/Relojeria_Vera/static/css/main.a5330862.chunk.css",
+    "main.js": "/Relojeria_Vera/static/js/main.eedd47ea.chunk.js",
+    "main.js.map": "/Relojeria_Vera/static/js/main.eedd47ea.chunk.js.map",
     "runtime-main.js": "/Relojeria_Vera/static/js/runtime-main.77c4fb18.js",
     "runtime-main.js.map": "/Relojeria_Vera/static/js/runtime-main.77c4fb18.js.map",
-    "static/js/2.5ea2e9ae.chunk.js": "/Relojeria_Vera/static/js/2.5ea2e9ae.chunk.js",
-    "static/js/2.5ea2e9ae.chunk.js.map": "/Relojeria_Vera/static/js/2.5ea2e9ae.chunk.js.map",
+    "static/js/2.6e981bda.chunk.js": "/Relojeria_Vera/static/js/2.6e981bda.chunk.js",
+    "static/js/2.6e981bda.chunk.js.map": "/Relojeria_Vera/static/js/2.6e981bda.chunk.js.map",
     "static/js/3.897cd73c.chunk.js": "/Relojeria_Vera/static/js/3.897cd73c.chunk.js",
     "static/js/3.897cd73c.chunk.js.map": "/Relojeria_Vera/static/js/3.897cd73c.chunk.js.map",
     "index.html": "/Relojeria_Vera/index.html",
-    "static/css/main.68693966.chunk.css.map": "/Relojeria_Vera/static/css/main.68693966.chunk.css.map",
-    "static/js/2.5ea2e9ae.chunk.js.LICENSE.txt": "/Relojeria_Vera/static/js/2.5ea2e9ae.chunk.js.LICENSE.txt",
-    "static/media/1.78d7d5c1.jpg": "/Relojeria_Vera/static/media/1.78d7d5c1.jpg",
+    "static/css/main.a5330862.chunk.css.map": "/Relojeria_Vera/static/css/main.a5330862.chunk.css.map",
+    "static/js/2.6e981bda.chunk.js.LICENSE.txt": "/Relojeria_Vera/static/js/2.6e981bda.chunk.js.LICENSE.txt",
     "static/media/Banner.dc6ce5ff.png": "/Relojeria_Vera/static/media/Banner.dc6ce5ff.png"
   },
   "entrypoints": [
     "static/js/runtime-main.77c4fb18.js",
-    "static/js/2.5ea2e9ae.chunk.js",
-    "static/css/main.68693966.chunk.css",
-    "static/js/main.24839b6d.chunk.js"
+    "static/js/2.6e981bda.chunk.js",
+    "static/css/main.a5330862.chunk.css",
+    "static/js/main.eedd47ea.chunk.js"
   ]
 }
